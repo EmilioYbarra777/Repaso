@@ -4,9 +4,9 @@ const port = process.env.PORT || 3000;
 
 app.get(["/", "/:name"], (req, res) => {
   greeting = "<h1>Hello World. I'm Node App</h1>";
-  name = req.params["name"];
-  if (name) {
-    res.send(greeting + "</br>And my name is " + name);
+  nombre = req.params["name"];
+  if (nombre) {
+    res.send(greeting + "</br>And my name is " + nombre);
   } else {
     res.send(greeting);
   }
