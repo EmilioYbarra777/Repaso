@@ -8,10 +8,10 @@ jobs:
       - run: npm --version
       - uses: actions/checkout@v3
       - run: node app.js
-      - name: Print Something
+      - name: Print nombre
         run: echo "Gilberto Emilio Ybarra Ibarra"
-      - name: Print Something 2 
-        run: echo npm --version
-      - name: Print Something 3
+      - name: Print npm version 
+        run: echo $(npm -v)
+      - name: Print expediente
         run: echo "735579"
 
