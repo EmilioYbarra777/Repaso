@@ -9,10 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Print Something
-      run: | #el pipe es para tratar las tres impresiones como una ejecución 
-        echo "impresion 1"
-        echo "impresion 2"
-        echo "impresion 3"
+      run: echo "Gilberto Emilio Ybarra Ibarra"
+    - name: Print Something 2
+      run: echo node -v
+    - name: Print Something 3
+      run: echo "735579"
 
 
 
